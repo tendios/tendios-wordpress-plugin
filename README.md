@@ -4,7 +4,7 @@
   <img alt="Tendios plugin de wordpress" src="https://media.licdn.com/dms/image/v2/D4D3DAQF5Ci_wRro44g/image-scale_191_1128/image-scale_191_1128/0/1718973463865/tendios_cover?e=1729191600&v=beta&t=DnBgYGYmvWfGZ8iZiithI3tWQHWKkR4ZQYl6yr_bbG0">
 </p>
 
-This repository contains a PHP script designed to show tenders Table thougth a shortcode on wordpress sites
+This repository contains a PHP script designed to show tenders table thougth a shortcode on wordpress sites
 
 ## Installation
 
@@ -12,7 +12,9 @@ You just need to download the zip file and upload as a plugin to your wordpress 
 
 ## Filters
 
-- Provinces
+You can filter the tenders by:
+
+- Location
 - Sector
 - minBudget
 - maxBudget
