@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Tendios Finder
+Plugin Name: Tenders Finder | Tendios
 Description: Plugin para mostrar licitaciones públicas en España
 Version: 1.0
 Author: Antonio Liébana
