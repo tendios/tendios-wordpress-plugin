@@ -1,0 +1,252 @@
+[
+    {
+        "name": "Almería",
+        "type": "province",
+        "queryapi": "province%2FAlmer%C3%ADa"
+    },
+    {
+        "name": "Cádiz",
+        "type": "province",
+        "queryapi": "province%2FC%C3%A1diz"
+    },
+    {
+        "name": "Córdoba",
+        "type": "province",
+        "queryapi": "province%2FC%C3%B3rdoba"
+    },
+    {
+        "name": "Granada",
+        "type": "province",
+        "queryapi": "province%2FGranada"
+    },
+    {
+        "name": "Huelva",
+        "type": "province",
+        "queryapi": "province%2FHuelva"
+    },
+    {
+        "name": "Jaén",
+        "type": "province",
+        "queryapi": "province%2FJa%C3%A9n"
+    },
+    {
+        "name": "Málaga",
+        "type": "province",
+        "queryapi": "province%2FM%C3%A1laga"
+    },
+    {
+        "name": "Sevilla",
+        "type": "province",
+        "queryapi": "province%2FSevilla"
+    },
+    {
+        "name": "Huesca",
+        "type": "province",
+        "queryapi": "province%2FHuesca"
+    },
+    {
+        "name": "Teruel",
+        "type": "province",
+        "queryapi": "province%2FTeruel"
+    },
+    {
+        "name": "Zaragoza",
+        "type": "province",
+        "queryapi": "province%2FZaragoza"
+    },
+    {
+        "name": "Asturias",
+        "type": "province",
+        "queryapi": "province%2FAsturias"
+    },
+    {
+        "name": "Baleares",
+        "type": "province",
+        "queryapi": "province%2FBaleares"
+    },
+    {
+        "name": "Las Palmas",
+        "type": "province",
+        "queryapi": "province%2FLas%20Palmas"
+    },
+    {
+        "name": "Santa Cruz de Tenerife",
+        "type": "province",
+        "queryapi": "province%2FSanta+Cruz+de+Tenerife"
+    },
+    {
+        "name": "Cantabria",
+        "type": "province",
+        "queryapi": "province%2FCantabria"
+    },
+    {
+        "name": "Albacete",
+        "type": "province",
+        "queryapi": "province%2FAlbacete"
+    },
+    {
+        "name": "Ciudad Real",
+        "type": "province",
+        "queryapi": "province%2FCiudad+Real"
+    },
+    {
+        "name": "Cuenca",
+        "type": "province",
+        "queryapi": "province%2FCuenca"
+    },
+    {
+        "name": "Guadalajara",
+        "type": "province",
+        "queryapi": "province%2FGuadalajara"
+    },
+    {
+        "name": "Toledo",
+        "type": "province",
+        "queryapi": "province%2FToledo"
+    },
+    {
+        "name": "Ávila",
+        "type": "province",
+        "queryapi": "province%2F%C3%81vila"
+    },
+    {
+        "name": "Burgos",
+        "type": "province",
+        "queryapi": "province%2FBurgos"
+    },
+    {
+        "name": "León",
+        "type": "province",
+        "queryapi": "province%2FLe%C3%B3n"
+    },
+    {
+        "name": "Palencia",
+        "type": "province",
+        "queryapi": "province%2FPalencia"
+    },
+    {
+        "name": "Salamanca",
+        "type": "province",
+        "queryapi": "province%2FSalamanca"
+    },
+    {
+        "name": "Segovia",
+        "type": "province",
+        "queryapi": "province%2FSegovia"
+    },
+    {
+        "name": "Soria",
+        "type": "province",
+        "queryapi": "province%2FSoria"
+    },
+    {
+        "name": "Valladolid",
+        "type": "province",
+        "queryapi": "province%2FValladolid"
+    },
+    {
+        "name": "Zamora",
+        "type": "province",
+        "queryapi": "province%2FZamora"
+    },
+    {
+        "name": "Barcelona",
+        "type": "province",
+        "queryapi": "province%2FBarcelona"
+    },
+    {
+        "name": "Gerona",
+        "type": "province",
+        "queryapi": "province%2FGerona"
+    },
+    {
+        "name": "Lérida",
+        "type": "province",
+        "queryapi": "province%2FL%C3%A9rida"
+    },
+    {
+        "name": "Tarragona",
+        "type": "province",
+        "queryapi": "province%2FTarragona"
+    },
+    {
+        "name": "Alicante",
+        "type": "province",
+        "queryapi": "province%2FAlicante"
+    },
+    {
+        "name": "Castellón",
+        "type": "province",
+        "queryapi": "province%2FCastell%C3%B3n"
+    },
+    {
+        "name": "Valencia",
+        "type": "province",
+        "queryapi": "province%2FValencia"
+    },
+    {
+        "name": "Badajoz",
+        "type": "province",
+        "queryapi": "province%2FBadajoz"
+    },
+    {
+        "name": "Cáceres",
+        "type": "province",
+        "queryapi": "province%2FC%C3%A1ceres"
+    },
+    {
+        "name": "La Coruña",
+        "type": "province",
+        "queryapi": "province%2FLa+Coru%C3%B1a"
+    },
+    {
+        "name": "Lugo",
+        "type": "province",
+        "queryapi": "province%2FLugo"
+    },
+    {
+        "name": "Orense",
+        "type": "province",
+        "queryapi": "province%2FOrense"
+    },
+    {
+        "name": "Pontevedra",
+        "type": "province",
+        "queryapi": "province%2FPontevedra"
+    },
+    {
+        "name": "La Rioja",
+        "type": "province",
+        "queryapi": "province%2FLa+Rioja"
+    },
+    {
+        "name": "Madrid",
+        "type": "province",
+        "queryapi": "province%2FMadrid"
+    },
+    {
+        "name": "Región de Murcia",
+        "type": "province",
+        "queryapi": "province%2FRegi%C3%B3n+de+Murcia"
+    },
+    {
+        "name": "Navarra",
+        "type": "province",
+        "queryapi": "province%2FNavarra"
+    },
+    {
+        "name": "Álava",
+        "type": "province",
+        "queryapi": "province%2F%C3%81lava"
+    },
+    {
+        "name": "Guipúzcoa",
+        "type": "province",
+        "queryapi": "province%2FGuip%C3%BAzcoa"
+    },
+    {
+        "name": "Vizcaya",
+        "type": "province",
+        "queryapi": "province%2FVizcaya"
+    }
+]
