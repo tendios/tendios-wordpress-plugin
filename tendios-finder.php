@@ -13,7 +13,7 @@ require_once plugin_dir_path(__FILE__) . 'includes/settings.php';
 require_once plugin_dir_path(__FILE__) . 'includes/helpers.php';
 
 function tendios_plugin_enqueue_styles() {
-    wp_enqueue_style('tendios-plugin-styles', plugins_url('assets/styles.css', __FILE__));
+    wp_enqueue_style('tendios-plugin-styles', plugins_url('assets/styles.css', __FILE__), array(), '1.0', 'all');
 }
 
 // Inicializar el plugin

@@ -1,44 +1,49 @@
 /* Estilos para la tabla */
 .tendios-api {
-  width: 100%;
-  border-radius: 10px;  
+  width: 80%;
+  border-radius: 10px;
   overflow: hidden;
-  padding: 1rem;  
+  padding: 1rem;
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
-  background-color: #fff;  
+  background-color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .tendios-api table {
-  width: 100%;
-  border-collapse: collapse;  
+  width: 90%;
 }
 
 .tendios-api th,
 .tendios-api td {
-  padding: 0.5em;  
+  padding: 0.6rem;
   border-right: none !important;
   border-left: none !important;
+  background-color: #fff !important;
 }
 
 .tendios-api thead th {
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 0.9em;  
+  font-size: 0.9em;
   text-align: center;
-  border-bottom: 2px solid #000;  
-  background-color: #f8f8f8;  
+  border-bottom: 2px solid #000;
+  border-top: 0px transparent;
+  background-color: #f8f8f8 !important;
 }
 
 .tendios-api tbody tr:not(:last-child) td {
-  border-bottom: 1px solid #ddd;  
+  border-bottom: 1px solid #ddd;
 }
 
 .tendios-api thead th:last-child {
-  border-right: none;  
+  border-right: none;
 }
 
 .tendios-api tbody tr td {
-  border-bottom: 1px solid #ddd;  
+  border-bottom: 1px solid #ddd;
 }
 
 .tendios-api .tipo-contrato {
@@ -47,45 +52,43 @@
 
 .tendios-api .btn-ver-mas {
   display: block;
-  padding: 0.5em 1em;  
+  padding: 0.5em 1em;
   background-color: #07447f;
   text-align: center;
-  margin: 0.5em auto;  
+  margin: 0.5em auto;
   color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
-  transition: background-color 0.3s;  
+  transition: background-color 0.3s;
 }
 
 .tendios-api .btn-ver-mas:hover {
-  background-color: #052e50;  
+  background-color: #052e50 !important;
 }
 
 .tendios-api .presupuesto {
-  font-size: 1em;  
+  font-size: 1em;
   text-align: center;
   background-color: #5cc9a7;
-  color: #fff;  
-  border-radius: 10px;  
-  padding: 0.5em;  
+  color: #fff;
+  border-radius: 10px;
+  padding: 0.5em;
 }
 
-/* Media query para dispositivos móviles */
+/* Media query para dispositivos m贸viles */
 @media (max-width: 600px) {
   .tendios-api {
-      overflow-x: auto;  
+    overflow-x: auto;
   }
   .tendios-api th,
   .tendios-api td {
-      display: block;
-      width: 100% !important;  
+    display: block;
+    width: 80% !important;
   }
   .tendios-api a {
-      display: block;
-      width: 100% !important;  
+    display: block;
+    width: 80% !important;
   }
 }
-
-
