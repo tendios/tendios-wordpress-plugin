@@ -22,6 +22,7 @@
   border-right: none !important;
   border-left: none !important;
   background-color: #fff !important;
+  vertical-align: middle;
 }
 
 .tendios-api thead th {
