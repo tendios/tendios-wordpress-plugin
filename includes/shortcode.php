@@ -78,7 +78,7 @@ function tendios_shortcode($atts) {
         $output .= '<td>' . htmlspecialchars(truncate_text($tender['name'], 40), ENT_QUOTES, 'UTF-8') . '</td>';
         $output .= '<td><div class="presupuesto">' . number_format($tender['budgetNoTaxes'], 2, ',', '.') . ' €</div></td>';
         $output .= '<td><div class="tipo-contrato">' . htmlspecialchars($tender['contractType'], ENT_QUOTES, 'UTF-8') . '</div></td>';
-        $output .= '<td><a href="https://tendios.com/tenders/' . $tender['_id'] . '" class="btn-ver-mas">Ver Licitación</a></td>';
+        $output .= '<td><a href="https://tendios.com/tenders/' . $tender['_id'] . '" class="btn-ver-mas" target="_blank">Ver Licitación</a></td>';
         $output .= '</tr>';
     }
 
