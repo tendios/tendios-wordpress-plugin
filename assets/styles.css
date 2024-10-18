@@ -32,6 +32,7 @@
   text-align: center;
   border-bottom: 2px solid #000;
   border-top: none !important;
+  outline: none !important;
   background-color: #f8f8f8 !important;
 }
 
