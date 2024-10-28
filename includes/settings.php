@@ -49,9 +49,12 @@ function tendios_plugin_settings_page() {
         </form>
 
         <!-- Hide the shortcode area initially -->
-        <div id="shortcode-area" style="display: none;">
+        <div id="shortcode-area" style="display: none; margin-top: 20px;">
             <h3 id="shortcode-header">Shortcode:</h3>
-            <textarea id="shortcode-textarea" readonly style="width: 100%; height: 50px;"></textarea>
+            <div style="display: flex; align-items: center; max-width: 60%">
+                <input type="text" id="shortcode-textarea" readonly style="flex: 1; height: 40px; padding: 10px; border: 1px solid #ccc; border-radius: 4px; margin-right: 5px;">
+                <button onclick="copyToClipboard()" style="height: 40px; padding: 0 15px; border: none; border-radius: 4px; background-color: #0073aa; color: white; cursor: pointer;">Copiar <span class="dashicons dashicons-admin-page"></span></button>
+            </div>
         </div>
 
         <script>
@@ -85,6 +88,19 @@ function tendios_plugin_settings_page() {
                 // Set the shortcode value
                 document.getElementById('shortcode-textarea').value = shortcode;
             });
+
+            function copyToClipboard() {
+                var copyText = document.getElementById("shortcode-textarea");
+                copyText.select();
+                document.execCommand("copy");
+            
+                var copyButton = document.querySelector('#shortcode-area button');
+                copyButton.innerHTML = "Copiado al portapapeles <span class='dashicons dashicons-admin-page'></span>";
+            
+                setTimeout(function() {
+                    copyButton.innerHTML = "Copiar <span class='dashicons dashicons-admin-page'></span>";
+                }, 2000);
+            }
         </script>
     </div>
     <?php

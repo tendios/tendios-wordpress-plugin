@@ -16,8 +16,8 @@ You can filter the tenders by:
 
 - Location
 - Sector
-- minBudget
-- maxBudget
+- minbudget
+- maxbudget
 
 ### 🔗 Links
 
