@@ -20,10 +20,10 @@ function tendios_plugin_settings_page() {
         <ul>
             <li><strong>→ location</strong>: Nombre de la provincia (obligatorio)</li>
             <li><strong>→ search</strong>: Texto de búsqueda (opcional)</li>
-            <li><strong>→ minBudget</strong>: Precio mínimo del presupuesto de la licitación (opcional)</li>
-            <li><strong>→ maxBudget</strong>: Precio máximo del presupuesto de la licitación (opcional)</li>
+            <li><strong>→ minbudget</strong>: Precio mínimo del presupuesto de la licitación (opcional)</li>
+            <li><strong>→ maxbudget</strong>: Precio máximo del presupuesto de la licitación (opcional)</li>
         </ul>
-        <p>Ejemplo de uso: [tendios location="Barcelona" search="transporte" minBudget="1000" maxBudget="50000"]</p>
+        <p>Ejemplo de uso: [tendios location="Barcelona" search="transporte" minbudget="1000" maxbudget="50000"]</p>
 
         <h2>Generar Shortcode:</h2>
         <form id="tendios-form">
@@ -37,12 +37,12 @@ function tendios_plugin_settings_page() {
                     <td><input type="text" id="search" name="search" class="regular-text"></td>
                 </tr>
                 <tr>
-                    <th><label for="minBudget">min Budget</label></th>
-                    <td><input type="number" id="minBudget" name="minBudget" class="regular-text"></td>
+                    <th><label for="minbudget">min Budget</label></th>
+                    <td><input type="number" id="minbudget" name="minbudget" class="regular-text"></td>
                 </tr>
                 <tr>
-                    <th><label for="maxBudget">max Budget</label></th>
-                    <td><input type="number" id="maxBudget" name="maxBudget" class="regular-text"></td>
+                    <th><label for="maxbudget">max Budget</label></th>
+                    <td><input type="number" id="maxbudget" name="maxbudget" class="regular-text"></td>
                 </tr>
             </table>
             <p><button type="submit" class="button button-primary">Generar Shortcode</button></p>
@@ -60,8 +60,8 @@ function tendios_plugin_settings_page() {
 
                 var location = document.getElementById('location').value;
                 var search = document.getElementById('search').value;
-                var minBudget = document.getElementById('minBudget').value;
-                var maxBudget = document.getElementById('maxBudget').value;
+                var minbudget = document.getElementById('minbudget').value;
+                var maxbudget = document.getElementById('maxbudget').value;
 
                 var shortcode = '[tendios location="' + location + '"';
 
@@ -69,12 +69,12 @@ function tendios_plugin_settings_page() {
                     shortcode += ' search="' + search + '"';
                 }
 
-                if (minBudget) {
-                    shortcode += ' minBudget="' + minBudget + '"';
+                if (minbudget) {
+                    shortcode += ' minbudget="' + minbudget + '"';
                 }
 
-                if (maxBudget) {
-                    shortcode += ' maxBudget="' + maxBudget + '"';
+                if (maxbudget) {
+                    shortcode += ' maxbudget="' + maxbudget + '"';
                 }
 
                 shortcode += ']';

@@ -4,8 +4,8 @@ function tendios_shortcode($atts) {
     $atts = shortcode_atts(array(
         'location' => '',
         'search' => '',
-        'minBudget' => '1000',
-        'maxBudget' => '9000000'
+        'minbudget' => '5000',
+        'maxbudget' => '900000'
     ), $atts, 'tendios');
 
     $json_file = plugin_dir_path(__FILE__) . '../locations.json';
@@ -37,15 +37,13 @@ function tendios_shortcode($atts) {
     if (!empty($atts['search'])) {
         $api_url .= '&text=' . urlencode(trim($atts['search']));
     }
-
-    $minBudget = intval($atts['minBudget']);
-    if ($minBudget > 0) {
-        $api_url .= '&minBudget=' . $minBudget;
+    
+    if (!empty($atts['minbudget'])) {
+        $api_url .= '&minBudget=' . urlencode(trim($atts['minbudget']));
     }
-
-    $maxBudget = intval($atts['maxBudget']);
-    if ($maxBudget > 0) {
-        $api_url .= '&maxBudget=' . $maxBudget;
+    
+    if (!empty($atts['maxbudget'])) {
+        $api_url .= '&maxBudget=' . urlencode(trim($atts['maxbudget']));
     }
 
 
