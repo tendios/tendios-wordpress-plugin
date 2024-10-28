@@ -44,9 +44,10 @@ function tendios_shortcode($atts) {
     }
 
     $maxBudget = intval($atts['maxBudget']);
-    if ($maxBudget > 0 && $maxBudget != 9000000) {
+    if ($maxBudget > 0) {
         $api_url .= '&maxBudget=' . $maxBudget;
     }
+
 
     // Realizar la solicitud a la API
     $api_response = wp_remote_get($api_url);
